@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="City Rays Florals, Floral Design, Birthday Gifts, Wedding Flowers, Bouquets, Flower Bouquets, Corporate Giftss">
+		<meta name="description" content="Zimbabwean Floral Design Company" >
+		<meta name="author" content="Elisvobs">
+
+		<title>Floral Design Company</title>
+
+		<link rel="icon" href="images/icons/icon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="images/icons/icon.ico" type="image/x-icon" />
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700' rel='stylesheet' type='text/css'>
+		<!--Custom fonts-->
+		<!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500italic,500,700,700italic,900' rel='stylesheet' type='text/css'> -->
+
+		<!-- <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css"> -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/ionicons.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/camera.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/touchTouch.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/isotope.css" type="text/css" media="screen">
+
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/theme-global.css">
+		<link rel="stylesheet" href="css/theme-animate.css">
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/superfish.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+		<script type="text/javascript" src="js/camera.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+		<script type="text/javascript" src="js/touchTouch.jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+
+		<script>
+			$(document).ready(function() {
+				// camera
+				$('#camera_wrap').camera({
+					//thumbnails: true
+					autoAdvance			: true,
+					mobileAutoAdvance	: true,
+					//fx					: 'simpleFade',
+					height: '50%',
+					hover: false,
+					loader: 'none',
+					navigation: false,
+					navigationHover: false,
+					mobileNavHover: false,
+					playPause: false,
+					pauseOnClick: false,
+					pagination			: true,
+					time: 7000,
+					transPeriod: 1000,
+					minHeight: '350px'
+				});
+
+			}); //
+			$(window).load(function() {
+				//
+
+			}); //
+		</script>
+
+		<script>
+			$(document).ready(function() {
+				//
+
+			}); //
+			$(window).load(function() {
+				// isotop
+				var $container = $('#isotope-items'),
+					$optionSet = $('#isotope-options'),
+					$optionSets = $('#isotope-filters'),
+					$optionLinks = $optionSets.find('a');
+					$container.isotope({
+						filter: '*',
+						layoutMode: 'fitRows'
+					});
+				$optionLinks.click(function(){
+					var $this = $(this);
+					// don't proceed if already selected
+					if ( $this.hasClass('selected') ) {
+						return false;
+					}
+					$optionSet.find('.selected').removeClass('selected');
+					$this.addClass('selected');
+
+					var selector = $(this).attr('data-filter');
+					$container.isotope({
+						filter: selector
+					});
+					return false;
+				});
+				$(window).on("resize", function( event ) {
+					$container.isotope('reLayout');
+				});
+
+				// touchTouch
+				$('.thumb-isotope .thumbnail a').touchTouch();
+
+			}); //
+		</script>
+		<!--[if lt IE 8]>
+				<div style='text-align:center'><a href="https://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg"border="0"alt=""/></a></div>
+			<![endif]-->
+
+		<!--[if lt IE 9]>
+		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+		<![endif]-->
+	</head>
+
+	<body class="subpage">
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous"
+			src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0&appId=428255607683270&autoLogAppEvents=1">
+		</script>
+
+		<div id="main">
+			<div class="top1">
+				<div class="container">
+					<div class="row">
+						<div class="span12">
+							<div class="top1_inner">
+
+								<div id="header">
+									<ul>
+										<li><a class="logo">
+												<img src="images/logo.png" alt="">
+											</a>
+										</li>
+										<li class="selected"><a href="index.html">home</a></li>
+										<li><a href="#about">about us</a></li>
+										<li><a href="#services">services</a></li>
+										<li><a href="#gallery">portfolio</a></li>
+										<li><a href="#contact">contact us</a></li>
+									</ul>
+								</div>
+
+								<div id="slider_wrapper">
+									<div id="slider" class="clearfix">
+										<div id="camera_wrap">
+											<div data-src="images/slider/1.jpg">
+												<div class="camera_caption fadeIn">
+													<div class="txt1">Bouquets</div>
+													<div class="txt2">for all occasions</div>
+													<div class="txt3">making memories that lasts</div>
+												</div>
+											</div>
+
+											<div data-src="images/slider/2.jpg">
+												<div class="camera_caption fadeIn">
+													<div class="txt1">Flowers</div>
+													<div class="txt2">for special occasions</div>
+													<div class="txt3">Find the freshest custom-made flowers</div>
+												</div>
+											</div>
+
+											<div data-src="images/slider/3.jpg">
+												<div class="camera_caption fadeIn">
+													<div class="txt1">Bouquets</div>
+													<div class="txt2">for all occasions</div>
+													<div class="txt3">Find the freshest flowers and hand tied</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div id="content">
+				<div class="container">
+					<div class="row">
+						<div class="span12">
+							<div id="content_inner">
+
+								<section>
+									<div class="section-bg wow fadeInUp" id="about">
+										<div class="container">
+											<div class="section-header">
+												<div class="slogan1">
+													<h3>About Us</h3>
+													<p >We are a floral company that is uniquely designed to provide a range of high-quality custom floral arrangements, and wonderful decorations and gifts, for events and functions and peripherals. City Rays Florals emphasize excellent products and services in a timely & efficient manner to ensure complete customer satisfaction whilst creating and maintaining successful relationships with customers.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section><!-- #about-->
+
+								<div id="columns" class="columns-container">
+									<div class="section section-banner">
+										<div class="container">
+
+											<div class="tv-table block">
+												<div class="tv-tablecell">
+													<div class="block-html block">
+														<h4>Flowers for </h4>
+														<h3>Birthdays & Gifts</h3>
+														<p class="block-htmldes">We assist you to choose the perfect bouquet of eye-catching flowers to commemorate birthdays, and to convey special messages so you can better express your feelings with sincerity whilst spreading happiness by brightening the recipient's day.
+														</p>
+														<!-- <a class="button btn btn-primary" href="page-category-left.html" title="Shop now">Shop now</a> -->
+													</div><!--end block-html -->
+												</div>
+												<div class="tv-tablecell box-image">
+													<div class="banner-item effectbanner">
+														<a class="image-wrap" href="#"><img class="img-responsive" src="images/banner/1.jpg" alt=""></a>
+													</div><!--end banner-item-->
+												</div>
+											</div>
+
+											<div class="tv-table block">
+												<div class="tv-tablecell box-image">
+													<div class="banner-item effectbanner">
+														<a class="image-wrap" href="#"><img class="img-responsive" src="images/banner/2.jpg" alt=""></a>
+													</div><!--end banner-item-->
+												</div>
+												<div class="tv-tablecell">
+													<div class="block-html block">
+														<h4>Flowers for the</h4>
+														<h3>Wedding day</h3>
+															<p class="block-htmldes">We work to ensure a picture perfect wedding by setting the mood and tone of your special day with a gorgeous big bunch of flowers with a perfect blend of beauty, color, style and elegance. We provide a range of uniquely designed flowers that will be cherished and are guaranteed to delight!
+															</p>
+														<!-- <a class="button btn btn-primary" href="page-category-left.html" title="Shop now">Shop now</a> -->
+													</div><!--end block-html -->
+												</div>
+											</div>
+
+										</div><!-- end container -->
+
+									</div><!-- end section-banner -->
+
+									<section>
+										<div class="section-bg wow fadeInUp" id="services">
+											<div class="container">
+												<div class="section-header">
+													<div class="banners" >
+														<div class="row" >
+											<div class="slogan1">
+												<h3>Our Services</h2>
+													<p>We provide custom floral designs for all occasions including:</p>
+											</div>
+
+											<div class="span4 banner banner1">
+												<div class="banner_inner">
+													<a href="#">
+														<img src="images/services/1.jpg" alt="" class="img">
+														<div class="caption">
+															<div class="txt1">Corporate Events</div>
+															<div class="txt2">We specialise in fresh, innovative and eye-catching floral arrangements that helps to create a beautiful, vibrant and lasting impression that perfectly reflects your business. We advise you on the appropriate choice of colors, styles and flower for both office and events.
+															</div>
+														</div>
+													</a>
+												</div>
+											</div>
+
+											<div class="span4 banner banner2">
+												<div class="banner_inner">
+													<a href="#">
+														<img src="images/services/2.jpg" alt="" class="img">
+														<div class="caption">
+															<div class="txt1">Flower Designs</div>
+															<div class="txt2">We design and create beautiful, innovative and stylish floral designs ranging from freshly-cut hand-tied, artificial or dried flowers to suit each customer's occasion. We take great pride in the self-expression of personal style and bring your events floral dreams to life.
+															</div>
+														</div>
+													</a>
+												</div>
+											</div>
+
+											<div class="span4 banner banner3">
+												<div class="banner_inner">
+													<a href="#">
+														<img src="images/services/3.jpg" alt="" class="img">
+														<div class="caption">
+															<div class="txt1">Holidays & Occasions</div>
+															<div class="txt2">We provide flowers to make your events special & unforgettable by creating festive atmospheres for social gatherings. We also cater for special occasions such as weddings, funerals and milestones such as anniversaries.
+															</div>
+														</div>
+													</a>
+												</div>
+											</div>
+
+										</div>
+									</section><!-- #services-->
+								</div>
+
+								<div class="tv-table block" style="color: #e9587a"> --
+									<div class="tv-tablecell"></div>
+								</div>
+								<div class="tv-table block" style="color: #e9587a"> --
+									<div class="tv-tablecell"></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+						<section>
+							<div class="section-bg wow fadeInUp" id="gallery">
+								<div class="container">
+									<div class="section-header"><div class="banners" >
+										<div class="row" >
+											<div class="span12">
+											<h3>Our Gallery</h3>
+
+												<ul class="thumbnails" id="isotope-items">
+													<li class="span3 isotope-element isotope-filter1">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/gallery/1.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+
+													<li class="span3 isotope-element isotope-filter2">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/slider/3.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.	 -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+
+													<li class="span3 isotope-element isotope-filter3">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/gallery/2.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+
+													<li class="span3 isotope-element isotope-filter1">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/gallery/3.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+
+													<li class="span3 isotope-element isotope-filter2">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/gallery/4.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+
+													<li class="span3 isotope-element isotope-filter3">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/gallery/5.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+													<li class="span3 isotope-element isotope-filter1">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/gallery/6.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+													<li class="span3 isotope-element isotope-filter2">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/gallery/7.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+													<li class="span3 isotope-element isotope-filter3">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/gallery/8.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+													<li class="span3 isotope-element isotope-filter1">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/gallery/9.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+													<li class="span3 isotope-element isotope-filter2">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/gallery/10.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+													<li class="span3 isotope-element isotope-filter3">
+														<div class="thumb-isotope">
+															<div class="thumbnail clearfix">
+																<a href="images/blank.png">
+																	<figure>
+																		<img src="images/gallery/11.jpg" alt=""><em></em>
+																	</figure>
+																	<div class="caption">
+																		<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+																	</div>
+																</a>
+															</div>
+														</div>
+													</li>
+												</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section><!-- #gallery-->
+
+					<div class="tv-table block" style="color: #e9587a"> --
+						<div class="tv-tablecell">
+						</div>
+					</div>
+					<div class="tv-table block" style="color: #e9587a"> --
+						<div class="tv-tablecell">
+						</div>
+					</div>
+				</div>
+
+
+				<div class="container">
+					<section>
+						<div class="section-bg wow fadeInUp" id="contact">
+							<div class="container">
+								<div class="section-header">
+									<h3>Contact Us</h3>
+										<p>Feel Free to reach us at:</p>
+								</div>
+
+								<div class="contact-info">
+									<!-- <div class="col-md-4"> -->
+											<p>Shop No. 4,<br>
+											Africa Unit Square,<br>
+											Jason Moyo, Harare<br>
+											+263 71 889 2833</p>
+										<!-- </div> -->
+									</div>
+								</div>
+
+								<figure class="google_map">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.198787994475!2d31.04983261431928!3d-17.82931378102748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a4e68cd44f9f%3A0x37e665945bbc2221!2sAfrica%20Unity%20Square!5e0!3m2!1sen!2szw!4v1569223715627!5m2!1sen!2szw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+								</figure>
+							</div>
+						</div>
+					</section><!-- #contact-->
+				</div>
+
+				<div class="tv-table block" style="color: #e9587a"> --
+						<div class="tv-tablecell"></div>
+				</div>
+
+				<div class="tv-table block" style="color: #e9587a"> --
+					<div class="tv-tablecell"></div>
+				</div>
+
+				<div class="container">
+					<div class="bot1">
+						<div class="row">
+							<div class="span12">
+								<div class="bot1_inner">
+									<div class="row">
+										<div class="span4">
+											<h2 style="text-align: center">About Us</h2>
+												<p style="text-align: center; margin-left: 10px">City Rays Florals is a floral company uniquely designed to provide a range of high-quality custom floral arrangements, and wonderful decorations and gifts, for events and functions and peripherals. </p>
+										</div>
+
+										<div class="span5">
+											<h2 style="margin-left:20px">Connect With Us</h2>
+											<div style="margin-left:20px; align-content: center" class="fb-page" data-href="https://www.facebook.com/CityRaysFlorals/"
+												 data-tabs="timeline" data-width="" data-height="250px"
+												 data-small-header="false" data-adapt-container-width="true"
+												 data-hide-cover="false" data-show-facepile="true" data-share="true">
+												<blockquote cite="https://www.facebook.com/CityRaysFlorals/" class="fb-xfbml-parse-ignore">
+							  						<a href="https://www.facebook.com/CityRaysFlorals/">City Rays Florals</a>
+												</blockquote>
+											</div>
+
+											<div style="margin-left: 80px" class="social_wrapper">
+												<ul class="social clearfix">
+													<li>
+														<a class="whatsapp" href="https://wa.me/263777175291">
+															<img style="margin-right: 10px" src="images/icons/social_ic1.png">
+														</a>
+													</li>
+													<!-- <li><a class="instagram" href="https://www.instagram.com/CityRaysFlorals/">
+														<img style="margin-top: 10px; margin-right: 10px" src="images/icons/social_ic2.png"></a></li> -->
+													<li><a class="instagram" href="https://www.instagram.com/CityRaysFlorals/">
+														<img style="margin-top: 10px; margin-right: 10px" src="images/icons/social_ic2.png"></a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="span3">
+											<h2 >Quick Links</h2>
+											<ul class="ul0">
+												<li class="ftco-animate"><a href="index.html">Home</a></li>
+												<li class="ftco-animate"><a href="#about">About Us</a></li>
+												<li><a href="#services">Services</a></li>
+												<li><a href="#gallery">Portfolio</a></li>
+												<li><a href="#contact">Contact Us</a></li>
+											</ul>
+										</div>
+									</div>
+
+									<footer>
+										<div style="text-align: center" class="copyright">
+											<p>Copyright &copy; <script>  document.write(new Date().getFullYear()); </script>
+												City Rays Florals - All Rights Reserved | Developed By <a style="color: #e9587a;" target="_blank" href="http://www.infixustech.co.zw/">Infixus Tech</a>
+											</p>
+										</div>
+									</footer>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div
+
+		 <!-- Template Base, Components and Settings  -->
+		<script src="js/theme.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+
+	</body>
+</html>
